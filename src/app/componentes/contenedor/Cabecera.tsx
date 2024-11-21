@@ -53,7 +53,7 @@ export const Cabecera = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/melist">
+                    <NavLink className="dropdown-item" to="/menlis">
                       Listar Menus
                     </NavLink>
                   </li>
@@ -69,7 +69,7 @@ export const Cabecera = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/menacer">
+                <NavLink className="nav-link" to="/menuacer">
                   Acerca de
                 </NavLink>
               </li>

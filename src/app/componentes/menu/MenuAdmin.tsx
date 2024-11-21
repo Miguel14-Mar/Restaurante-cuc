@@ -12,7 +12,7 @@ export const MenuAdmin = () => {
                 <th style={{ width: "15%" }} className="text-center">
                   Precio
                 </th>
-                <th style={{ width: "20%" }}> Region</th>
+                <th style={{ width: "20%" }}> Región</th>
                 <th style={{ width: "30%" }}>Opciones</th>
               </tr>
             </thead>
