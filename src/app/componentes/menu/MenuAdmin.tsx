@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 export const MenuAdmin = () => {
   return (
     <>
@@ -24,12 +26,12 @@ export const MenuAdmin = () => {
                 <td className="text-center">35000</td>
                 <td>Paisa</td>
                 <td>
-                  <a href="menactu/1">
+                  <NavLink to = "menactu/1">
                     <i
                       className="fa-solid fa-pen-to-square"
                       style={{ color: "#2596be" }}
                     ></i>
-                  </a>
+                  </NavLink>
                   &nbsp;
                   <i
                     className="fa-solid fa-eraser"
@@ -44,12 +46,12 @@ export const MenuAdmin = () => {
                 <td className="text-center">28000</td>
                 <td>Andina</td>
                 <td>
-                  <a href="/menactu/2">
+                  <NavLink to ="/menactu/2">
                     <i
                       className="fa-solid fa-pen-to-square"
                       style={{ color: "#2596be" }}
                     ></i>
-                  </a>
+                  </NavLink>
                   &nbsp;
                   <i
                     className="fa-solid fa-eraser"
@@ -64,12 +66,12 @@ export const MenuAdmin = () => {
                 <td className="text-center">25000</td>
                 <td>Santander</td>
                 <td>
-                  <a href="/menactu/3">
+                  <NavLink to="/menactu/3">
                     <i
                       className="fa-solid fa-pen-to-square"
                       style={{ color: "#2596be" }}
                     ></i>
-                  </a>
+                  </NavLink>
                   &nbsp;
                   <i
                     className="fa-solid fa-eraser"
